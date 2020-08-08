@@ -75,7 +75,19 @@ const Dashboard: React.FC = () => {
   }
 
   async function handleDeleteFood(id: number): Promise<void> {
-    // TODO DELETE A FOOD PLATE FROM THE API
+    try {
+      await api.delete(`/foods/${id}`);
+
+      const index = foods.findIndex(foodIndex => foodIndex.id === id);
+
+      const updatedFoods = [...foods];
+
+      updatedFoods.splice(index, 1);
+
+      setFoods(updatedFoods);
+    } catch (err) {
+      console.log('error', err);
+    }
   }
 
   function toggleModal(): void {

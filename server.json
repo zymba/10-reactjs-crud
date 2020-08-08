@@ -25,14 +25,6 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
     {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "Pizza",
-      "price": "32,20",
-      "description": "Pizza Hut",
-      "available": true,
-      "id": 4
-    },
-    {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
       "name": "Peixe grelhado",
       "price": "47.20",
