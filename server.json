@@ -34,9 +34,9 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Bisteca",
-      "price": "15.90",
-      "description": "Bisteca de porco",
+      "name": "Peixe grelhado",
+      "price": "47.20",
+      "description": "assado na brasa",
       "available": true,
       "id": 5
     }
